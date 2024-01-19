@@ -1,4 +1,4 @@
-# Lab 1
+# Using Locks, Barriers on MergeSort and BucketSort
 
 This code familiarizes with fork/join parallelism, barriers, and locks.  
 
