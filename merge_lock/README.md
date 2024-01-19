@@ -18,7 +18,7 @@ In this algorithm, we again create independent partitions where we consider the 
 
 The implementation of Locking BucketSort avoids idling threads if at all possible. For instance, a problem decomposition that assigns the bucket ranges evenly across threads will result in idle threads when the source distribution is highly skewed e.g. (1,2,3,4,5,6,7,1001,1000,1002).  Instead, it works to ensure that all threads are busy at all times, even at the cost of synchronizing across buckets.
 
-```
+
 
 ### Compilation and Execution:
 The repository contains a Makefile and the project is built using a single `make` command.  The generated executable is called `mysort`.  The `mysort` command has the following syntax:
@@ -29,7 +29,7 @@ See below for `mysort` syntax examples.  As before, you can assume that all inpu
 
 
 ## Examples
-
+```
 Examples of your `mysort` program's syntax
 $ make
 $ shuf -i0-2147483643 -n382 > case1.txt
@@ -38,6 +38,7 @@ $ ./mysort -i case1.txt -o output1.txt --alg=lkbucket -t 4
 
 ```
 
+```
 ### print your name
 ./mysort --name
 # prints:
