@@ -9,5 +9,5 @@ This repository contains code, compilation intructions and in some cases observa
     * Test-and-set lock
     * Test-and-test-and-set lock
     * Ticket lock
-    * MCS Lock (grads only)
+    * MCS Lock 
     * Sense reversal barrier

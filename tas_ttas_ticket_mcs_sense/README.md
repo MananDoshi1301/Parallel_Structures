@@ -10,7 +10,7 @@ The algorithms written here are (under sequential consistency):
 * Test-and-set lock
 * Test-and-test-and-set lock
 * Ticket lock
-* MCS Lock (grads only)
+* MCS Lock
 * Sense reversal barrier
 
 ## Code Requirements / Restrictions
